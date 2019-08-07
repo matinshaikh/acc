@@ -1,0 +1,43 @@
+{
+    "name": "matinshaikh/acc",
+    "description": "Description",
+    "type": "craft-plugin",
+    "version": "1.0.0",
+    "keywords": [
+        "craft",
+        "cms",
+        "craftcms",
+        "craft-plugin",
+        "acc"
+    ],
+    "support": {
+        "docs": "https://github.com/https://github.com/matinshaikh//acc/blob/master/README.md",
+        "issues": "https://github.com/https://github.com/matinshaikh//acc/issues"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Matin Shaikh",
+            "homepage": "https://qaswaweb.com"
+        }
+    ],
+    "require": {
+        "craftcms/cms": "^3.0.0-RC1"
+    },
+    "autoload": {
+        "psr-4": {
+          "matinshaikh\\acc\\": "src/"
+        }
+    },
+    "extra": {
+        "name": "acc",
+        "handle": "acc",
+        "hasCpSettings": false,
+        "hasCpSection": false,
+        "changelogUrl": "https://raw.githubusercontent.com/https://github.com/matinshaikh//acc/master/CHANGELOG.md",
+        "components": {
+            "accService": "matinshaikh\\acc\\services\\AccService"
+        },
+        "class": "matinshaikh\\acc\\Acc"
+    }
+}
